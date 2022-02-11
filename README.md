@@ -1,4 +1,4 @@
-# Intro to Props
+# Intro to Props ✉️
 
 Learning goals
 - Define React props
