@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Ball from './components/Ball'
+
 
 function App() {
+  const success = true;
+
+  /*
+    Pass a prop named perfectPutt
+    that contains the value of the
+    success variable to the Ball 
+    component in order make the shot!
+  */
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ball />
     </div>
   );
 }
 
 export default App;
+
+function childComponent(props) {
+  return (<div>
+
+  </div>
+  )
+}
+
+childComponent()
