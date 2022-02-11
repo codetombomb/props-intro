@@ -14,7 +14,7 @@ Then, open [http://localhost:3000](http://localhost:3000) to view the app in you
 
 ## Let's pass some props to make a Hole in One!! ⛳️ 🏌️
 
-### Deliverables
+### Deliverables 🚚 📦
   - Pass a prop named `perfectPutt`
   that contains the value of the
   `success` variable to the Ball 
